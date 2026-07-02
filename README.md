@@ -15,3 +15,5 @@ npm run dev
 - 文章索引在 `src/main.jsx` 的 `articles` 数组中维护。
 - 独立文章页面放在 `public/articles/`，构建时会原样发布。
 - `main` 分支由 GitHub Actions 自动发布到 GitHub Pages。
+
+自定义域名启用前使用 `https://fnb2026.github.io/fnb-site/`。完成 `www.fnbapp.net` DNS 解析后，在 `public/CNAME` 写入该域名即可切换。

@@ -15,7 +15,7 @@ const articles = [
     title: "AI时代关系哲学：从信息社会到关系社会",
     summary: "信息社会以“连接”为中心，关系社会以“联结”为中心。本文从存在、记忆、主体、治理与技术等维度，重新追问人与关系在技术文明中的位置。",
     meta: "2026 · 哲学体系 · 约 40 分钟",
-    href: "/articles/relation-philosophy.html",
+    href: "articles/relation-philosophy.html",
   },
 ];
 
