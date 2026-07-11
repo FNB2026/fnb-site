@@ -17,6 +17,12 @@ const articles = [
     meta: "2026 · 哲学体系 · 约 40 分钟",
     href: "articles/relation-philosophy.html",
   },
+  {
+    title: "人的数字主体权：在AI时代，谁拥有你的数据、记忆与关系？",
+    summary: "当AI能够读取、推断和重组人的数据、记忆、关系、信用与人格投影，个人应当拥有什么权利？本文提出“个人数字主体权优先”的原则。",
+    meta: "2026 · FNB公开文章 · 约 28 分钟",
+    href: "articles/digital-subject-rights.html",
+  },
 ];
 
 function RelationshipField() {
@@ -99,7 +105,6 @@ function App() {
             </article>
           ))}
           <div className="future-articles" aria-label="未来文章">
-            <div><span>下一篇</span><strong>人的数字主体权</strong><small>正在写作</small></div>
             <div><span>持续更新</span><strong>更多文章，敬请期待</strong><small>COMING SOON</small></div>
           </div>
         </section>
