@@ -4,6 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b1020">
 <title>AI时代关系哲学体系 · 从信息社会到关系社会</title>
 <style>
 @font-face { font-family: 'IBMPlexSerif'; src: url('./_shared/fonts/IBMPlexSerif-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; }
@@ -12,16 +13,6 @@
 @font-face { font-family: 'InstrumentSans'; src: url('./_shared/fonts/InstrumentSans-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; }
 @font-face { font-family: 'InstrumentSans'; src: url('./_shared/fonts/InstrumentSans-Bold.ttf') format('truetype'); font-weight: 700; font-style: normal; }
 @font-face { font-family: 'DMMono'; src: url('./_shared/fonts/DMMono-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; }
-
-:root {
-  --bg: #f6f2ea;
-  --bg2: #ece6d8;
-  --ink: #211c15;
-  --muted: #6e6457;
-  --rule: #d8cfbd;
-  --accent: #8c3a1e;
-  --accent2: #2f5d57;
-}
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -40,7 +31,7 @@ body {
   position: fixed; z-index: 20; right: 1.25rem; top: 1.25rem;
   display: inline-flex; align-items: center; gap: .45rem;
   padding: .65rem .9rem; border: 1px solid var(--rule); border-radius: 3px;
-  background: rgba(246, 242, 234, .94); color: var(--ink); text-decoration: none;
+  background: var(--brand-glass); color: var(--ink); text-decoration: none;
   font: 600 .78rem/1 'InstrumentSans', 'PingFang SC', sans-serif;
   backdrop-filter: blur(8px);
 }
@@ -181,6 +172,7 @@ footer .closing { font-family: 'IBMPlexSerif', 'Noto Serif CJK SC', serif; font-
   .cover h1 { font-size: 2.2rem; }
 }
 </style>
+<link rel="stylesheet" href="../styles/fnb-theme.css">
 </head>
 <body>
 <a class="site-back" href="../../">← 返回 FNB 官网</a>

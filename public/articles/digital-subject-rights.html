@@ -6,7 +6,7 @@
 <title>人的数字主体权：在AI时代，谁拥有你的数据、记忆与关系？｜FNB</title>
 <meta name="description" content="当AI能够读取、推断和重组人的数据、记忆、关系、信用与人格投影，个人应当拥有什么权利？本文提出“个人数字主体权优先”的原则，并讨论关系型数据、AI推断、平台边界与公共利益之间的平衡。">
 <meta name="author" content="FNB">
-<meta name="theme-color" content="#f6f2ea">
+<meta name="theme-color" content="#0b1020">
 <meta property="og:type" content="article">
 <meta property="og:title" content="人的数字主体权：在AI时代，谁拥有你的数据、记忆与关系？">
 <meta property="og:description" content="个人数字主体权优先，关系数据多方共治，平台受托处理，公共利益依法例外介入，AI可辅助但不可最终审判。">
@@ -20,17 +20,6 @@
 @font-face { font-family: 'InstrumentSans'; src: url('./_shared/fonts/InstrumentSans-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
 @font-face { font-family: 'InstrumentSans'; src: url('./_shared/fonts/InstrumentSans-Bold.ttf') format('truetype'); font-weight: 700; font-style: normal; font-display: swap; }
 @font-face { font-family: 'DMMono'; src: url('./_shared/fonts/DMMono-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
-
-:root {
-  --bg: #f6f2ea;
-  --bg2: #ece6d8;
-  --ink: #211c15;
-  --muted: #6e6457;
-  --rule: #d8cfbd;
-  --accent: #8c3a1e;
-  --accent2: #2f5d57;
-  --paper: rgba(255, 255, 255, .28);
-}
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -46,7 +35,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-::selection { background: rgba(140, 58, 30, .18); }
+::selection { background: var(--brand-selection); }
 
 .reading-progress {
   position: fixed;
@@ -70,7 +59,7 @@ body {
   padding: .65rem .9rem;
   border: 1px solid var(--rule);
   border-radius: 3px;
-  background: rgba(246, 242, 234, .94);
+  background: var(--brand-glass);
   color: var(--ink);
   text-decoration: none;
   font: 600 .78rem/1 'InstrumentSans', 'PingFang SC', sans-serif;
@@ -452,7 +441,7 @@ tr:last-child td { border-bottom: none; }
 .principles li:last-child { border-bottom: none; }
 
 .boundary {
-  background: linear-gradient(135deg, rgba(47, 93, 87, .08), rgba(140, 58, 30, .05));
+  background: linear-gradient(135deg, var(--brand-secondary-soft), var(--brand-primary-soft));
   border: 1px solid var(--rule);
   padding: 1.35rem 1.5rem;
   margin: 1.5rem 0;
@@ -541,6 +530,8 @@ footer .signature {
   }
 
   main {
+    width: 100%;
+    min-width: 0;
     padding: 0 1.5rem;
     max-width: 790px;
     margin: 0 auto;
@@ -579,6 +570,7 @@ footer .signature {
   .thesis, .domain-card, .boundary, .right-card { break-inside: avoid; }
 }
 </style>
+<link rel="stylesheet" href="../styles/fnb-theme.css">
 </head>
 
 <body>

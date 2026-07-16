@@ -1,0 +1,31 @@
+:root {
+  color-scheme: dark;
+
+  /* FNB brand palette: restrained, systemic, and technology-forward. */
+  --brand-bg: #0b1020;
+  --brand-surface: #0f172a;
+  --brand-surface-raised: #111827;
+  --brand-text: #f8fafc;
+  --brand-muted: #cbd5e1;
+  --brand-subtle: #94a3b8;
+  --brand-line: #293750;
+  --brand-primary: #38bdf8;
+  --brand-primary-strong: #60a5fa;
+  --brand-secondary: #a78bfa;
+
+  --brand-glass: rgba(11, 16, 32, 0.92);
+  --brand-panel: rgba(248, 250, 252, 0.045);
+  --brand-primary-soft: rgba(56, 189, 248, 0.12);
+  --brand-secondary-soft: rgba(167, 139, 250, 0.12);
+  --brand-selection: rgba(56, 189, 248, 0.24);
+
+  /* Legacy article aliases. Keep article HTML independent from theme naming. */
+  --bg: var(--brand-bg);
+  --bg2: var(--brand-surface);
+  --ink: var(--brand-text);
+  --muted: var(--brand-muted);
+  --rule: var(--brand-line);
+  --accent: var(--brand-primary);
+  --accent2: var(--brand-secondary);
+  --paper: var(--brand-panel);
+}
