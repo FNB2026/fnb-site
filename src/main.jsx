@@ -23,6 +23,12 @@ const articles = [
     meta: "2026 · FNB公开文章 · 约 28 分钟",
     href: "articles/digital-subject-rights.html",
   },
+  {
+    title: "从信息流到人生流：Flow、Node、Block 如何重新组织数字生活",
+    summary: "聊天、照片、邮件与日历保存了信息，却没有形成属于人的人生结构。FNB 以 Flow 记录发生，以 Node 形成结构，以 Block 保留由人确认的意义。",
+    meta: "2026 · FNB公开文章 · 约 16 分钟",
+    href: "articles/flow-node-block.html",
+  },
 ];
 
 function RelationshipField() {
@@ -104,8 +110,8 @@ function App() {
               </div>
             </article>
           ))}
-          <div className="future-articles" aria-label="未来文章">
-            <div><span>持续更新</span><strong>更多文章，敬请期待</strong><small>COMING SOON</small></div>
+          <div className="future-articles" aria-label="下一篇文章预告">
+            <div><span>下一篇</span><strong>关系不是好友列表：AI时代，我们需要重新发明 Relationship</strong><small>COMING SOON</small></div>
           </div>
         </section>
 
