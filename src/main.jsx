@@ -107,7 +107,6 @@ function App() {
           </div>
           {articles.map((article) => (
             <article className="featured-article" key={article.title}>
-              <div className="article-visual" aria-hidden="true"><span /><span /><span /></div>
               <div className="article-copy">
                 <p className="article-meta">{article.meta}</p>
                 <h3>{article.title}</h3>
@@ -127,8 +126,12 @@ function App() {
         </section>
       </main>
       <footer>
-        <div><a className="brand footer-brand" href="#top">FNB</a><p>后平台时代的人与社会关系操作系统</p></div>
-        <div className="footer-links"><a href="#downloads">下载</a><a href="#articles">文章</a><a href="https://github.com/FNB2026" target="_blank" rel="noreferrer">GitHub</a></div>
+        <div className="footer-intro">
+          <a className="brand footer-brand" href="#top">FNB</a>
+          <p>后平台时代的人与社会关系操作系统</p>
+          <a className="footer-email" href="mailto:yao@fnbapp.net">yao@fnbapp.net</a>
+        </div>
+        <div className="footer-links"><a href="#downloads">下载</a><a href="#articles">文章</a><a href="mailto:yao@fnbapp.net">联系</a><a href="https://github.com/FNB2026" target="_blank" rel="noreferrer">GitHub</a></div>
         <p className="copyright">© 2026 FNB</p>
       </footer>
     </div>
