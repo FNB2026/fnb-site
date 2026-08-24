@@ -25,9 +25,15 @@ const articles = [
   },
   {
     title: "从信息流到人生流：Flow、Node、Block 如何重新组织数字生活",
-    summary: "聊天、照片、邮件与日历保存了信息，却没有形成属于人的人生结构。FNB 以 Flow 记录发生，以 Node 形成结构，以 Block 保留由人确认的意义。",
-    meta: "2026 · FNB公开文章 · 约 16 分钟",
+    summary: "我们已经拥有越来越强大的计算机，却依然没有一种真正适合“人生”的数据结构。FNB 以 Flow 记录发生，以 Node 形成结构，以 Block 保留由人确认的意义。",
+    meta: "2026 · FNB公开文章 · 约 18 分钟",
     href: "articles/flow-node-block.html",
+  },
+  {
+    title: "关系不是好友列表：AI时代，我们需要重新发明 Relationship",
+    summary: "连接只能说明谁认识谁。真正的关系还拥有参与者、证据、时间、各自的解释、AI 推断、确认、纠错与审计，并最终由人自己治理。",
+    meta: "2026 · FNB公开文章 · 约 20 分钟",
+    href: "articles/relationship-first-class.html",
   },
 ];
 
@@ -110,8 +116,8 @@ function App() {
               </div>
             </article>
           ))}
-          <div className="future-articles" aria-label="下一篇文章预告">
-            <div><span>下一篇</span><strong>关系不是好友列表：AI时代，我们需要重新发明 Relationship</strong><small>COMING SOON</small></div>
+          <div className="future-articles" aria-label="第一季文章状态">
+            <div><span>第一季</span><strong>从关系哲学到 Relationship：四篇文章已完整发布</strong><small>SEASON 01</small></div>
           </div>
         </section>
 
