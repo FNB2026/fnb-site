@@ -484,6 +484,16 @@ a:focus-visible {
   font-size: 12px;
   color: #66748a;
 }
+.foot-links {
+  display: grid;
+  gap: 12px;
+}
+.foot nav.related-sites {
+  gap: 12px;
+}
+.related-sites a {
+  color: var(--deep);
+}
 .legal {
   font-size: 11px;
   color: #5f6d81;
