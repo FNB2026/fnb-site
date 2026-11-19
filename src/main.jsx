@@ -288,12 +288,18 @@ function App() {
                 <small>RELATIONSHIP OPERATING SYSTEM</small>
               </span>
             </a>
-            <nav aria-label="页脚">
-              <a href="#articles">公开文章</a>
-              <a href="https://github.com/FNB2026">GitHub</a>
-              <a href="https://github.com/FNB2026/fnb-open">开放项目</a>
-              <a href="mailto:yao@fnbapp.net">联系</a>
-            </nav>
+            <div className="foot-links">
+              <nav aria-label="页脚">
+                <a href="#articles">公开文章</a>
+                <a href="https://github.com/FNB2026">GitHub</a>
+                <a href="https://github.com/FNB2026/fnb-open">开放项目</a>
+                <a href="mailto:yao@fnbapp.net">yao@fnbapp.net</a>
+              </nav>
+              <nav className="related-sites" aria-label="相关站点">
+                <span>相关站点</span>
+                <a href="https://ndg.fnbapp.net/">NDG 官网</a>
+              </nav>
+            </div>
           </div>
           <div className="legal">© 2026 FNB</div>
         </div>
