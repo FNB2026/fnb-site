@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>从信息流到人生流：Flow、Node、Block 如何重新组织数字生活｜FNB</title>
+<meta name="description" content="聊天、照片、邮件与日历记录了大量信息，却没有形成属于人的人生结构。本文介绍 FNB 如何以 Flow、Node、Block 把数字碎片组织为事件、结构与意义。">
+<meta name="author" content="FNB">
+<meta name="theme-color" content="#0b1020">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从信息流到人生流：Flow、Node、Block 如何重新组织数字生活">
+<meta property="og:description" content="FNB 第一次向公众完整解释自己的基本语言：Flow 记录发生，Node 形成结构，Block 保留意义。">
+<meta property="og:url" content="https://www.fnbapp.net/articles/flow-node-block.html">
+<link rel="canonical" href="https://www.fnbapp.net/articles/flow-node-block.html">
+<link rel="stylesheet" href="../styles/fnb-theme.css">
+<link rel="stylesheet" href="../styles/article-system.css">
+</head>
+<body>
+<div class="reading-progress" aria-hidden="true"></div>
+<a class="site-back" href="../../">← 返回 FNB 官网</a>
+<div class="layout">
+<nav class="toc" aria-label="文章目录">
+  <h2>从信息流到人生流</h2>
+  <p class="toc-note">Flow、Node、Block 如何重新组织数字生活 · 第三篇公开文章</p>
+  <ol>
+    <li><a href="#prologue">数据没有形成人生</a></li>
+    <li><a href="#overload">不只是信息太多</a></li>
+    <li><a href="#flow">Flow：发生过什么</a></li>
+    <li><a href="#node">Node：什么逐渐稳定下来</a></li>
+    <li><a href="#block">Block：什么值得被保留</a></li>
+    <li><a href="#structure">事件、结构与意义</a></li>
+    <li><a href="#ai-boundary">AI 可以发现，不能宣布</a></li>
+    <li><a href="#beyond-chat">AI 不应只是聊天框</a></li>
+    <li><a href="#own-structure">个人拥有结构</a></li>
+    <li><a href="#information">信息不再是终点</a></li>
+    <li><a href="#remember">AI 应该怎样记住</a></li>
+    <li><a href="#status">FNB 今天走到了哪里</a></li>
+    <li><a href="#conclusion">从记录生活到理解关系</a></li>
+  </ol>
+</nav>
+<main>
+<header class="cover">
+  <div class="kicker">FNB · 数字生活结构 · 第三篇</div>
+  <h1>从信息流到人生流：<br>Flow、Node、Block 如何重新组织数字生活</h1>
+  <p class="subtitle">我们已经拥有越来越强大的计算机，却依然没有一种真正适合“人生”的数据结构。信息流告诉我们世界正在发生什么；FNB 追问的是：我的人生究竟发生过什么？</p>
+  <div class="meta">2026 · FNB 公开文章 · 约 18 分钟</div>
+  <div class="flow-map" aria-label="FNB 的三层结构">
+    <span>Flow · 发生</span><i>→</i><span>Node · 结构</span><i>→</i><span>Block · 意义</span>
+  </div>
+</header>
+
+<section class="content" id="prologue">
+  <div class="section-number">01 · The missing structure</div>
+  <h2>我们保存了越来越多的信息，却越来越难看见自己的人生</h2>
+  <p class="lead">问题不是数字生活没有被记录，而是它被记录在彼此隔绝的容器里。</p>
+  <div class="fragment-list">
+    <div class="fragment"><strong>微信里</strong>有十年前的重要对话，但它首先仍是一串聊天记录。</div>
+    <div class="fragment"><strong>相册里</strong>有几万张照片，但它不知道这些照片与你人生中的谁有关。</div>
+    <div class="fragment"><strong>邮箱里</strong>有合作、冲突、承诺和告别，但它们首先只是邮件。</div>
+    <div class="fragment"><strong>日历里</strong>写着你去了哪里，却很少知道那次见面对你意味着什么。</div>
+  </div>
+  <p>今天的信息系统大多围绕应用和文件类型组织世界：消息归消息，照片归照片，会议归会议，支付归支付。它们能精确保存每一条记录，却很难把同一段生活重新放回一起。</p>
+  <p>生成式 AI 带来了新的能力。它可以读完一批材料，然后给出摘要、分类和答案。但如果答案出现之后就失去来源，如果模型的判断被直接写成事实，如果人无法拒绝或重写，那么我们得到的只是一个更聪明的信息处理器，而不是一套属于人的数字结构。</p>
+  <div class="thesis">
+    <p>真正缺少的，不是更多信息。</p>
+    <p>而是一种把数字碎片重新组织为人生结构的方法。</p>
+  </div>
+  <p>FNB 为这件事提出了三个基础对象：Flow、Node、Block。它们不是三个页面名称，而是一条从生活发生到意义形成的路径。</p>
+</section>
+
+<section class="content" id="overload">
+  <div class="section-number">02 · Beyond overload</div>
+  <h2>信息流的问题，不只是“信息太多”</h2>
+  <p class="lead">真正的问题并不是我们无法找到信息，而是大量信息没有被组织进人的生命结构。</p>
+  <p>人们试图用更好的搜索、推荐和 AI 摘要解决信息过载。但你即使搜索出十年前某个人发来的一句话，也还没有回答：那个人是谁？你们当时是什么关系？那句话发生在什么背景下？后来发生了什么？这段关系如何变化？今天回头看，它意味着什么？</p>
+  <p>传统数据库擅长回答“这条消息是什么”，人生真正关心的却是：<strong>“这件事情在我的生命里是什么？”</strong>这需要另一套组织方式。</p>
+</section>
+
+<section class="content" id="flow">
+  <div class="section-number">03 · Flow</div>
+  <h2>Flow：发生过什么</h2>
+  <p class="lead">Flow 是持续发生的事件与变化。它关心的不是“这条内容放在哪个文件夹”，而是“谁在什么时候做了什么”。</p>
+  <div class="concept">
+    <div class="concept-head"><strong>Flow</strong><small>RUNTIME · WHAT HAPPENED</small></div>
+    <p>一条消息、一次见面、一张照片的产生、一份文件的交付、一次旅行、一笔转账、一次介绍、一次争执，都可以被理解为时间中的事件。事件带着参与者、时间、来源与权限，构成生活连续发生的原始材料。</p>
+  </div>
+  <p>“流”并不意味着把一切暴露给系统，更不意味着把人生变成无休止的信息流。恰恰相反，Flow 的价值在于保留上下文：一件事来自哪里，发生在什么时候，与谁有关，在什么权限下被记录。</p>
+  <p>社交平台的信息流通常服务于“此刻让你继续看什么”；FNB 所说的人生流，更关心“过去究竟发生过什么，以及它后来与什么发生了联系”。前者追逐注意力，后者建立连续性。</p>
+  <h3>同一个生活片段，可以穿过多个应用</h3>
+  <p>一次合作可能从朋友介绍开始，经过聊天、会议、合同、付款和交付，最后留下照片与复盘。传统软件把它切成六种文件；在人生中，它们却属于同一段过程。Flow 的任务，是让这些事件仍然能够按照时间、来源和参与者被重新理解。</p>
+</section>
+
+<section class="content" id="node">
+  <div class="section-number">04 · Node</div>
+  <h2>Node：这些事件中，什么逐渐稳定下来</h2>
+  <p class="lead">事件不断流动，但生活并不只是一条无差别的时间线。人会从反复发生的事件中认出对象、主题和边界。</p>
+  <div class="concept">
+    <div class="concept-head"><strong>Node</strong><small>ENTITY · WHAT PERSISTS</small></div>
+    <p>Node 是从 Flow 中被识别或形成的稳定对象。它可以是一个人、一段对话、一次旅行、一家公司、一项计划、一次会议或一个长期反复出现的主题。Node 拥有身份和状态，因此能够跨越单次事件继续存在。</p>
+  </div>
+  <p>如果说 Flow 回答“发生了什么”，Node 回答的就是“这些事情围绕着什么发生”。它把散落在不同时间和应用里的内容，重新组织到人能够理解的对象周围。</p>
+  <div class="examples">
+    <div class="example"><div class="eyebrow">PERSON</div><p>几十次聊天、合照和共同事件，可能持续指向同一个人。</p></div>
+    <div class="example"><div class="eyebrow">PROJECT</div><p>邮件、会议、文件与决策，可能逐渐形成同一个项目。</p></div>
+    <div class="example"><div class="eyebrow">JOURNEY</div><p>车票、地点、照片和语音，可能共同属于一次旅行。</p></div>
+    <div class="example"><div class="eyebrow">COMMITMENT</div><p>一次承诺会在后续事件中被履行、修改、遗忘或重新提起。</p></div>
+  </div>
+  <p>Node 也不是机器贴上去的永久标签。AI 可以建议“这些事件可能属于同一个项目”或“这几个人可能参与了同一次旅行”，但建议仍应保留来源、确信程度和纠正入口。对象一旦识别错误，后续形成的理解也会跟着偏离。</p>
+</section>
+
+<section class="content" id="block">
+  <div class="section-number">05 · Block</div>
+  <h2>Block：人最终愿意保留下来的意义</h2>
+  <p class="lead">人生并不会把每一个瞬间都等量保存。我们回忆、选择、整理，也不断重新理解过去。</p>
+  <div class="concept">
+    <div class="concept-head"><strong>Block</strong><small>ARTIFACT · WHAT MATTERS</small></div>
+    <p>Block 是由 Flow 事件与 Node 聚合、整理或计算形成的高价值成果。它不是原始资料的简单压缩，而是一份保留来源、能够被确认和继续修正的意义单元。</p>
+  </div>
+  <p>一个 Block 可以是“我和某个人过去三年的关系变化”，可以是“2026 年东北返乡一个月形成的一组记忆”，也可以是“FNB 项目某次关键路线决策”或“一次合作从接触、谈判到完成的全过程”。</p>
+  <p>它们的共同点不在格式，而在形成过程：原始事件仍然可以追溯，相关对象仍然可以辨认，聚合结论由人决定是否成立。Block 不是 AI 替人写下的最终结论，而是人愿意保存、携带和继续治理的数字成果。</p>
+  <blockquote>信息只有被放回经历之中，才可能成为记忆；经历只有经过人的确认，才可能沉淀为意义。</blockquote>
+</section>
+
+<section class="content" id="structure">
+  <div class="section-number">06 · Event → Structure → Meaning</div>
+  <h2>FNB 不是把资料换一个地方存，而是改变组织数字生活的基本单位</h2>
+  <p class="lead">聊天软件以消息为中心，网盘以文件为中心，社交网络以账号和连接为中心。FNB 尝试以“发生—形成—确认”为中心。</p>
+  <div class="decision-path" aria-label="从事件到意义的形成路径">
+    <ol>
+      <li><strong>FlowEvent</strong>事件与来源</li>
+      <li><strong>Node</strong>稳定对象</li>
+      <li><strong>BlockDraft</strong>候选理解</li>
+      <li><strong>Decision</strong>确认 / 拒绝 / 重写</li>
+      <li><strong>Block</strong>可治理成果</li>
+    </ol>
+  </div>
+  <p>这就是为什么 FNB 不是另一个聊天软件。聊天可以产生 Flow，但聊天界面不是最终边界。它也不是另一个 AI 笔记：笔记可以成为 Block 的一种呈现，但 Block 必须保留来源和用户决定。它更不是把所有资料扔给大模型做一次检索增强生成，因为一次回答不会自动变成关于你的事实。</p>
+  <div class="thesis">
+    <p>Flow：事件。</p>
+    <p>Node：结构。</p>
+    <p>Block：意义。</p>
+  </div>
+  <p>三者合起来，FNB 才从“保存信息”走向“组织数字生活”。这不是要把人的全部生活格式化，而是给那些值得长期保留、理解和迁移的部分提供一种更接近生命经验的结构。</p>
+</section>
+
+<section class="content" id="ai-boundary">
+  <div class="section-number">07 · Human decision</div>
+  <h2>AI 可以帮助人发现意义，但不能替人宣布意义</h2>
+  <p class="lead">AI 的能力越强，系统越需要把“模型提出了什么”和“人确认了什么”分开。</p>
+  <p>FNB 的公开协议规定了一条关键边界：AI 输出不能直接成为 Block。它必须先成为 BlockDraft，并保留所依据的事件、Node、推断记录与解释。用户随后可以确认、拒绝，或者重写。</p>
+  <p>这不是给自动化增加一道形式化按钮，而是在数据结构中承认：模型的总结是一项提议，不是事实；概率上的相似，不等于人生意义上的相同；关于一个人的长期记忆，不能仅凭机器判断就被永久写入。</p>
+  <div class="examples">
+    <div class="example"><div class="eyebrow">CONFIRM</div><p>“这确实概括了那段经历，我愿意保留它。”</p></div>
+    <div class="example"><div class="eyebrow">REJECT</div><p>“材料相关，但这个理解不成立，不应形成 Block。”</p></div>
+    <div class="example"><div class="eyebrow">REWRITE</div><p>“方向接近，但真正重要的不是结果，而是中间那次决定。”</p></div>
+    <div class="example"><div class="eyebrow">TRACE</div><p>无论接受还是修改，都能回到来源、解释与决定记录。</p></div>
+  </div>
+  <p>在这条边界之下，机器和人并不是互相排斥的。机器适合观察大规模事件、发现可能的关联、提出候选对象和草稿；人负责判断一段经历是否真的属于自己、是否值得长期保留，以及应该用什么语言来描述。</p>
+  <blockquote>Flow 可以由机器观察；Node 可以由机器建议；Block 可以由机器生成草稿；但“这件事对我意味着什么”，最终仍然属于人。</blockquote>
+</section>
+
+<section class="content" id="beyond-chat">
+  <div class="section-number">08 · Beyond the prompt</div>
+  <h2>未来的 AI 不应该只是一个聊天框</h2>
+  <p class="lead">人的真正生活不是由一个个 Prompt 组成的。人生、关系和记忆都是连续的，很多最重要的事情甚至从来没有被主动提问。</p>
+  <p>我们不会每天问 AI：“今天我和父亲的关系发生了什么变化？”“过去三个月我和某个合作伙伴的信任是否正在形成？”“这五年里，哪些事情真正改变了我？”</p>
+  <p>如果一个系统能够在用户治理下长期理解 Flow、Node、Memory、Relationship 和 Block，它就可能逐渐具备一种新的能力：不是等人提问以后才开始思考，而是帮助人理解已经发生的人生。这才可能是个人 AI 更深一层的方向。</p>
+</section>
+
+<section class="content" id="own-structure">
+  <div class="section-number">09 · Personal structure</div>
+  <h2>从“互联网保存内容”到“个人拥有结构”</h2>
+  <p class="lead">平台的组织方式首先服务产品；真正属于个人的数字系统，需要让软件的数据结构适应人的生活。</p>
+  <p>微信按照聊天窗口组织，Instagram 按照帖子组织，邮箱按照邮件组织，云盘按照文件夹组织，短视频按照推荐流组织。FNB 尝试把这个关系倒过来：</p>
+  <div class="fragment-list">
+    <div class="fragment">聊天只是 Flow 的一种来源。</div>
+    <div class="fragment">照片只是 Asset 的一种形式。</div>
+    <div class="fragment">联系人只是 Actor 的一种入口。</div>
+    <div class="fragment">AI 只是帮助提炼结构的一种能力。</div>
+  </div>
+  <p>真正的中心重新变成人：他的时间、经历、记忆、关系与判断。</p>
+</section>
+
+<section class="content" id="information">
+  <div class="section-number">10 · Information is not the end</div>
+  <h2>信息并没有消失，但信息不再是终点</h2>
+  <p class="lead">Flow、Node 和 Block 都建立在真实信息之上；只是信息不应该永远停留在碎片状态。</p>
+  <p>一条消息的价值可能不在消息本身，一张照片的价值也不只是图像，一个名字的价值更不是通讯录中的一行字符。它们真正的价值来自：与谁有关，发生在什么时候，与哪些事情相连，并最终成为了什么。</p>
+  <div class="thesis">
+    <p>从以内容为中心，变成以事件为基础；</p>
+    <p>从以文件为中心，变成以结构为中心；</p>
+    <p>从以平台为中心，最终重新回到人。</p>
+  </div>
+  <p>这就是从“信息流”走向“人生流”的意义。</p>
+</section>
+
+<section class="content" id="remember">
+  <div class="section-number">11 · How should AI remember?</div>
+  <h2>技术最终应该帮助人回答一个更古老的问题</h2>
+  <p class="lead">我们第一次拥有能够主动理解记录的人工智能。真正值得追问的不再只是 AI 能不能记住更多，而是它应该怎样记住。</p>
+  <p>谁拥有这些记忆？谁可以解释这些记忆？谁有权修改这些记忆？机器推断与人的判断之间，边界在哪里？</p>
+  <blockquote>我经历了什么？我与谁一起经历？这些经历最终使我成为了谁？</blockquote>
+  <p>FNB 所尝试建立的 Flow、Node、Block，并不是三个产品按钮。它们更像是一种关于数字人生的基本假设：<strong>人生首先发生，然后形成结构，最后产生意义。</strong></p>
+</section>
+
+<section class="content" id="status">
+  <div class="section-number">12 · Current state</div>
+  <h2>FNB 今天走到了哪里</h2>
+  <p class="lead">公开表达必须区分已经存在的工程骨架与仍在探索的未来方向。</p>
+  <div class="status-grid">
+    <div class="status-card done">
+      <h3>已经形成的基础</h3>
+      <ul>
+        <li>聊天与 Markdown 导入可产生 Memory、Node、Flow 和 Block。</li>
+        <li>FlowEvent、Node、BlockDraft、Block 已进入公开协议预览。</li>
+        <li>AIInference、Explanation、Permission、Audit、Correction 构成可解释、可修正的治理骨架。</li>
+        <li>Relationship、RelationshipParticipant、RelationshipEvidence 已作为一等领域对象进入系统。</li>
+      </ul>
+    </div>
+    <div class="status-card next">
+      <h3>仍在继续完成的部分</h3>
+      <ul>
+        <li>公开协议仍是 v0.1 Draft，不是冻结完成的行业标准。</li>
+        <li>跨来源、跨设备的人生流仍需要更完整的产品闭环与真实设备验证。</li>
+        <li>完整 RLM、Person-State 等仍属于研究与后续阶段。</li>
+        <li>路线图中的远期能力，不应被描述成今天已经存在的产品。</li>
+      </ul>
+    </div>
+  </div>
+  <p>因此，这篇文章描述的不是一个已经包办人生的全知系统，而是 FNB 正在建立的一套基本语法。公开仓库先把对象、来源、解释、确认与纠正写成可以检查的规则；产品仓库再让这些规则通过导入、聊天、记忆和关系界面逐步变成日常能力。</p>
+  <p>判断 FNB 是否真的沿着这条路前进，不应只看它使用了多少 AI，而应看每一个重要结论能否回答：它来自哪里，模型做了什么，人做了什么决定，错误之后能否被修正。</p>
+</section>
+
+<section class="content" id="conclusion">
+  <div class="section-number">13 · From life to relationship</div>
+  <h2>当数字生活重新拥有结构，“关系”才可能被真正理解</h2>
+  <p class="lead">关系不是静止的标签，而是许多事件在时间中累积、变化并被不同的人理解的结果。</p>
+  <p>如果系统只看好友列表，它只能知道谁连接了谁；如果系统能够看见有来源的 Flow、逐渐稳定的 Node，以及由人确认的 Block，它才有机会理解一段关系经历了什么。</p>
+  <p>这也解释了为什么 Flow、Node、Block 必须先于 Relationship 被讲清楚。没有事件，关系就没有历史；没有稳定对象，关系就没有参与者与语境；没有经过确认的意义，关系就只剩一条平台定义的边。</p>
+  <div class="thesis">
+    <p>FNB 不试图替人定义人生。</p>
+    <p>它试图让人能够把发生过的生活，重新组织成自己可以理解、携带和治理的结构。</p>
+  </div>
+  <p>下一篇，我们将继续追问：为什么通讯录、好友、关注和粉丝都不足以描述真实关系？当 Relationship 成为一种有证据、可变化、可解释、由参与者分别治理的一等数字对象，互联网会发生什么变化？</p>
+</section>
+
+<nav class="article-nav" aria-label="文章导航">
+  <a href="digital-subject-rights.html"><small>上一篇</small><strong>人的数字主体权</strong></a>
+  <a class="next" href="relationship-first-class.html"><small>下一篇</small><strong>关系不是好友列表</strong></a>
+</nav>
+<footer>
+  <p class="closing">记录发生，形成结构，由人确认意义。<br>让重要的人，重新成为关系的中心。</p>
+  <p class="signature">FNB · 后平台时代的人与社会关系操作系统 · 2026</p>
+</footer>
+</main>
+</div>
+<script>
+(() => {
+  const progress = document.querySelector('.reading-progress');
+  const links = [...document.querySelectorAll('.toc a[href^="#"]')];
+  const sections = links.map(link => document.querySelector(link.hash)).filter(Boolean);
+  const updateProgress = () => {
+    const max = document.documentElement.scrollHeight - innerHeight;
+    progress.style.width = `${max > 0 ? Math.min(100, scrollY / max * 100) : 0}%`;
+  };
+  const observer = new IntersectionObserver(entries => {
+    const current = entries.filter(entry => entry.isIntersecting).sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+    if (!current) return;
+    links.forEach(link => link.classList.toggle('active', link.hash === `#${current.target.id}`));
+  }, { rootMargin:'-12% 0px -76% 0px' });
+  sections.forEach(section => observer.observe(section));
+  addEventListener('scroll', updateProgress, { passive:true });
+  addEventListener('resize', updateProgress);
+  updateProgress();
+})();
+</script>
+</body>
+</html>
